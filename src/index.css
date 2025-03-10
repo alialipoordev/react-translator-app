@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 7px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #212936cc;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #121826cc;
+  border-radius: 3px;
+}
